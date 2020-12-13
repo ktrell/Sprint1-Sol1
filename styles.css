@@ -9,7 +9,51 @@
 
 p {
     font-weight: 300;
-    color: blue;
+    color: white;
+}
+
+header {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /*para poner el header encima de todo*/
+    transition: 0.7s;
+    padding: 30px 100px;
+}
+
+.logo {
+    color: white;
+    font-size: 2em;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.logo span {
+    color: yellow;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.navBar {
+    position: relative;
+    display: flex;
+}
+
+.navBar li {
+    list-style: none;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+
+.navBar li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5em;
 }
 
 /* 100 vh para que la imagen ocupe todo el alto disponible para la sección*/
@@ -20,27 +64,27 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/banner1080-70opacity.jpg);
+    background-image: url(./images/section1.jpg);
     background-size: cover;
     
 }
 
 .slogan {
     text-align: center;
-    color: black;
-    max-width: 1000px;
+    color: white;
+    max-width: 1200px;
 }
 
 /*tamaño 6 veces el tamaño de la fuente del documento*/
 .nombreCompañia {
     font-size: 5em;
-    color: black;
+    color: white;
     text-align: center;
 }
 
 .presentacion {
     font-size: 1em;
-    color: black;
+    color: white;
 }
 
 .mas {
@@ -52,6 +96,7 @@ p {
     text-decoration: none;
     padding: 10px 20px;
     transition: 0.7s;
+    font-weight: 500;
 }
 
 .mas:hover {
