@@ -20,29 +20,40 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(./images/banner1080-2.jpg);
+    background-image: url(./images/banner1080-70opacity.jpg);
     background-size: cover;
+    
 }
 
 .slogan {
     text-align: center;
-    max-width: 900px;
+    color: black;
+    max-width: 1000px;
 }
 
 /*tamaño 6 veces el tamaño de la fuente del documento*/
 .nombreCompañia {
-    font-size: 6em;
+    font-size: 5em;
     color: black;
+    text-align: center;
 }
 
 .presentacion {
     font-size: 1em;
+    color: black;
 }
 
 .mas {
     font-size: 1em;
     display: inline-block;
     margin-top: 15px;
-    padding: ;
+    background: yellow;
+    letter-spacing: 1px;
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: 0.7s;
 }
 
+.mas:hover {
+    letter-spacing: 4px;
+}
