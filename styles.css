@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    min-height: 1000px;
+}
+
 p {
     font-weight: 300;
     color: white;
@@ -23,6 +27,24 @@ header {
     z-index: 1000; /*para poner el header encima de todo*/
     transition: 0.7s;
     padding: 30px 100px;
+}
+
+header.headerFlotante {
+    background: white;
+    padding: 10px 100px;
+    box-shadow: lightslategray;
+}
+
+header.headerFlotante .logo {
+    color: black;
+}
+
+header.headerFlotante .logo span {
+    color: blue;
+}
+
+header.headerFlotante .navBar li a {
+    color: black;
 }
 
 .logo {
@@ -53,7 +75,7 @@ header {
     text-decoration: none;
     color: white;
     font-weight: 300;
-    font-size: 1.5em;
+    font-size: 1.4em;
 }
 
 /* 100 vh para que la imagen ocupe todo el alto disponible para la sección*/
