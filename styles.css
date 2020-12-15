@@ -336,3 +336,25 @@ header.headerFlotante .navBar li a:hover {
   font-size: 1.7em;
   margin-top: 30px;
 }
+
+.equipo .integrantes .box .integrante p {
+  color: black;
+  font-weight: 200;
+  font-size: 1em;
+  margin-top: 5px;
+}
+
+/* ------------ESTILOS PARA LA SECCIÓN FOOTER------------ */
+
+.logoFooter {
+  color: black;
+  font-size: 1.2em;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.logoFooter span {
+  color: blue;
+  text-decoration: none;
+  font-size: 1.3em;
+}
