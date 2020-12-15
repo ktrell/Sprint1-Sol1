@@ -265,3 +265,30 @@ header.headerFlotante .navBar li a:hover {
   font-size: 1em;
   font-style: italic;
 }
+
+/* ------------ESTILOS PARA LA SECCIÓN EQUIPO------------ */
+
+.equipo {
+  background: url(./images/section4.jpg);
+  background-size: cover;
+}
+
+.tituloTeams {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.tituloTeams h2 {
+  color: white;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.tituloTeams span {
+  color: yellow;
+  font-weight: 800;
+}
