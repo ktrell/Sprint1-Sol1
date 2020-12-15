@@ -135,13 +135,14 @@ header.headerFlotante .navBar li a:hover {
   letter-spacing: 4px;
 }
 
+/* ------------ESTILOS PARA LA SECCIÓN SERVICIOS------------ */
+
 .tituloServicios {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  margin-top: 40px;
 }
 
 .tituloServicios p {
@@ -153,6 +154,7 @@ header.headerFlotante .navBar li a:hover {
   color: black;
   font-size: 3em;
   font-weight: 400;
+  margin-top: 80px;
 }
 
 .tituloServicios span {
@@ -199,6 +201,8 @@ header.headerFlotante .navBar li a:hover {
 .servicios .tresServ .box .nombreServicio h3 {
   font-weight: 400;
 }
+
+/* ------------ESTILOS PARA LA SECCIÓN NEWS------------ */
 
 .tituloNews {
   width: 100%;
