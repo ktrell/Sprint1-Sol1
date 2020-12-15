@@ -346,6 +346,14 @@ header.headerFlotante .navBar li a:hover {
 
 /* ------------ESTILOS PARA LA SECCIÓN FOOTER------------ */
 
+.footer {
+  display: flex;
+  flex-flow: row wrap;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .logoFooter {
   color: black;
   font-size: 1.2em;
@@ -357,4 +365,31 @@ header.headerFlotante .navBar li a:hover {
   color: blue;
   text-decoration: none;
   font-size: 1.3em;
+}
+
+.footerI p {
+  color: black;
+}
+
+.footer .footerI {
+  width: 420px;
+  margin: 20px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer .footerI .lista li {
+  list-style: none;
+  text-decoration: none;
+}
+
+.footer .footerI .lista a {
+  text-decoration: none;
+}
+
+.footer .footerI h2 {
+  list-style: none;
 }
