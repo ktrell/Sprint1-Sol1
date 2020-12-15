@@ -356,7 +356,7 @@ header.headerFlotante .navBar li a:hover {
 
 .logoFooter {
   color: black;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 800;
   text-decoration: none;
 }
@@ -364,7 +364,7 @@ header.headerFlotante .navBar li a:hover {
 .logoFooter span {
   color: blue;
   text-decoration: none;
-  font-size: 1.3em;
+  font-size: 1.2em;
 }
 
 .footerI p {
@@ -390,6 +390,19 @@ header.headerFlotante .navBar li a:hover {
   text-decoration: none;
 }
 
-.footer .footerI h2 {
+.footer .footerI li {
   list-style: none;
+}
+
+.footer .footerI h2 {
+  font-weight: 300;
+}
+
+.footerDerechos p {
+  color: black;
+  text-align: center;
+}
+
+.footerDerechos {
+  margin-bottom: 20px;
 }
