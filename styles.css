@@ -97,7 +97,7 @@ header.headerFlotante .navBar li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: url(./images/section1.jpg);
+  /*background-image: url(./images/section1.jpg);*/
   background-size: cover;
 }
 
@@ -405,4 +405,79 @@ header.headerFlotante .navBar li a:hover {
 
 .footerDerechos {
   margin-bottom: 20px;
+}
+
+/* SECCION ESTILOS DEL SLIDER*/
+
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.slide1 {
+  background-image: url("./images/section1.jpg");
+}
+.slide2 {
+  background-image: url("./images/section2.jpg");
+}
+.slide3 {
+  background-image: url("./images/section3.jpg");
+}
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}
+
+.slide-content span {
+  font-size: 2em;
 }
