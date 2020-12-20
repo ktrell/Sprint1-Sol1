@@ -267,6 +267,11 @@ header.headerFlotante .navBar li a:hover {
   background-size: cover;
 }
 
+.masServ {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
 /* ------------ESTILOS PARA LA SECCIÓN NEWS------------ */
 
 .tituloNews {
