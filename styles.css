@@ -428,6 +428,10 @@ header.headerFlotante .navBar li a:hover {
   margin-top: 5px;
 }
 
+.equipo .tituloTeams h2 {
+  margin-top: 30px;
+}
+
 /* ------------ESTILOS PARA LA SECCIÓN FOOTER------------ */
 
 .footer {
