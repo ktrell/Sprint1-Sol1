@@ -11,7 +11,7 @@
  <body>
     <header>
 
-        <a href="#inicio" class="logo">Todo<span>Tech</span></a>
+        <a href="#inicio" class="logo">Reclute<span>Me</span></a>
 
         <nav>
 
@@ -21,7 +21,7 @@
                 <li><a href="#noticias">Noticias</a></li>
                 <li><a href="#equipo">Nuestro Equipo</a></li>
                 <li><a href="#oficina">Oficina</a></li>
-                <li><a href="#hogar">Hogar</a></li>
+                <li><a href="#hogar"> <button>Login</button> </a></li>
             </ul>
 
         </nav>
@@ -34,25 +34,51 @@
         <div class="wrap">
             <div id="arrow-left" class="arrow"></div>
             <div id="slider">
-              <div class="slide slide1">
-                <div class="slide-content">
-                  <span class="text-slider">Aprovecha nuestras promociones</span>
+                <div class="slide slide1">
+                    <div class="slide-content">
+                        <div class="slogan">
+
+                            <h2 class="nombreCompañia"> La mejor asesoría </h2>
+                
+                            <p class="presentacion"> Somos la compañia número uno en el país en asesoría para contrataciones. Tenemos expertos en todo el sector que te ayudaran a reclutar el mejor talento mediante el uso de redes sociales. Consulta con nuestros expertos. </p>
+                
+                            <a class="mas" href=""> DIME MAS</a>
+                
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="slide slide2">
-                <div class="slide-content">
-                  <span class="text-slider">¡No te olvides de preguntar por duestros descuentos de CyberMonday!</span>
+
+                <div class="slide slide2">
+                    <div class="slide-content">
+                        <div class="slogan">
+
+                            <h2 class="nombreCompañia"> Reclutamos por ti</h2>
+                
+                            <p class="presentacion"> consectetur adipisicing elit. Distinctio ut asperiores quidem cupiditate saepe, eaque impedit facere minima? Reprehenderit nisi eaque tempore nihil provident aliquam vero quibusdam voluptatibus voluptas voluptatem? </p>
+                
+                            <a class="mas" href=""> DIME MAS</a>
+                
+                        </div>
+                    </div>
                 </div>
-              </div>
-              <div class="slide slide3">
-                <div class="slide-content">
-                  <span class="text-slider">Siempre tendrás personal capacitado para cubrir tus necesidades</span>
+
+                <div class="slide slide3">
+                    <div class="slide-content">
+                        <div class="slogan">
+
+                            <h2 class="nombreCompañia"> ¿Redes sociales y empleo?</h2>
+                
+                            <p class="presentacion"> consectetur adipisicing elit. Distinctio ut asperiores quidem cupiditate saepe, eaque impedit facere minima? Reprehenderit nisi eaque tempore nihil provident aliquam vero quibusdam voluptatibus voluptas voluptatem? </p>
+                
+                            <a class="mas" href=""> DIME MAS</a>
+                
+                        </div>
+                    </div>
                 </div>
-              </div>
+                </div>
+                <div id="arrow-right" class="arrow"></div>
             </div>
-            <div id="arrow-right" class="arrow"></div>
-          </div>
-          
+            
 
     </section>
 
@@ -231,6 +257,19 @@
 
         </div>
 
+        <div class="box">
+            
+            <div class="imgTeams">
+                <img src="./images/Miguel.png" alt="">
+            </div>
+
+            <div class="integrante">
+                <h3>Miguel</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+
+        </div>
+
     </div>
 </section>
 
@@ -323,34 +362,34 @@ let sliderImages = document.querySelectorAll(".slide"),
   arrowRight = document.querySelector("#arrow-right"),
   current = 0;
 
-// Clear all images
+// Imagenes
 function reset() {
   for (let i = 0; i < sliderImages.length; i++) {
     sliderImages[i].style.display = "none";
   }
 }
 
-// Init slider
+// Slider inicial
 function startSlide() {
   reset();
   sliderImages[0].style.display = "block";
 }
 
-// Show prev
+// Mostrar siguiente
 function slideLeft() {
   reset();
   sliderImages[current - 1].style.display = "block";
   current--;
 }
 
-// Show next
+// Mostrar previo
 function slideRight() {
   reset();
   sliderImages[current + 1].style.display = "block";
   current++;
 }
 
-// Left arrow click
+// Flecha izquierda
 arrowLeft.addEventListener("click", function() {
   if (current === 0) {
     current = sliderImages.length;
@@ -358,7 +397,7 @@ arrowLeft.addEventListener("click", function() {
   slideLeft();
 });
 
-// Right arrow click
+// Flecha derecha
 arrowRight.addEventListener("click", function() {
   if (current === sliderImages.length - 1) {
     current = -1;
