@@ -272,9 +272,9 @@ header.headerFlotante .navBar li a:hover {
   padding-bottom: 30px;
 }
 
-/* ------------ESTILOS PARA LA SECCIÓN NEWS------------ */
+/* ------------ESTILOS PARA LA SECCIÓN TESTIMONIOS------------ */
 
-.tituloNews {
+.tituloTestimonios {
   width: 100%;
   display: flex;
   justify-content: center;
@@ -283,21 +283,75 @@ header.headerFlotante .navBar li a:hover {
   margin-top: 40px;
 }
 
-.tituloNews p {
+.tituloTestimonios p {
   color: black;
   margin-bottom: 15px;
 }
 
-.tituloNews h2 {
+.tituloTestimonios h2 {
   color: black;
   font-size: 3em;
   font-weight: 400;
 }
 
-.tituloNews span {
+.tituloTestimonios span {
   color: blue;
   font-weight: 800;
 }
+
+.testimonios .contenido {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.testimonios .contenido .box {
+  margin: 20px;
+  padding: 40px;
+  width: 340px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #142850;
+}
+
+.testimonios .contenido .box .imgTest {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonios .contenido .box .imgTest img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.testimonios .contenido .box .textTest {
+  text-align: center;
+}
+
+.testimonios .contenido .box .textTest p {
+  font-style: italic;
+}
+
+.testimonios .contenido .box .textTest h3 {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 22px;
+  color: white;
+}
+
+/*
+
 
 .noticias .fourNews {
   justify-content: center;
@@ -334,7 +388,7 @@ header.headerFlotante .navBar li a:hover {
   font-weight: 300;
   font-size: 1em;
   font-style: italic;
-}
+} */
 
 /* ------------ESTILOS PARA LA SECCIÓN EQUIPO------------ */
 
