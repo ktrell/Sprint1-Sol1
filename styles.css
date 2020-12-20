@@ -350,46 +350,6 @@ header.headerFlotante .navBar li a:hover {
   color: white;
 }
 
-/*
-
-
-.noticias .fourNews {
-  justify-content: center;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-}
-
-.noticias .fourNews .box {
-  width: 250px;
-  margin: 20px;
-}
-
-.noticias .fourNews .box .imgNews {
-  position: relative;
-  width: 100%;
-  height: 300px;
-}
-
-.noticias .fourNews .box .imgNews img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.noticias .fourNews .box .nombreNews {
-  padding-top: 15px;
-}
-
-.noticias .fourNews .box .nombreNews h3 {
-  font-weight: 300;
-  font-size: 1em;
-  font-style: italic;
-} */
-
 /* ------------ESTILOS PARA LA SECCIÓN EQUIPO------------ */
 
 .equipo {
