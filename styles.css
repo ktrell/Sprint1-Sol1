@@ -153,6 +153,46 @@ header.headerFlotante .navBar li a:hover {
   letter-spacing: 4px;
 }
 
+/* ------------ESTILOS PARA LA SECCIÓN QUIENES SOMOS------------ */
+
+/*section {
+  padding: 100px;
+}*/
+
+.about {
+  padding-top: 100px;
+}
+
+.aboutColumn {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.aboutColumn .descripcion {
+  position: relative;
+  width: 50%;
+  padding-left: 50px;
+}
+
+.tituloAbout {
+  color: black;
+  font-size: 3em;
+  font-weight: 400;
+}
+
+.tituloAbout span {
+  color: blue;
+  font-weight: 800;
+}
+
+.descripcion p {
+  color: black;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
 /* ------------ESTILOS PARA LA SECCIÓN SERVICIOS------------ */
 
 .tituloServicios {
@@ -449,13 +489,13 @@ body,
 }
 
 .slide1 {
-  background-image: url("./images/section1.jpg");
+  background-image: url("./images/section3.jpg");
 }
 .slide2 {
   background-image: url("./images/section2.jpg");
 }
 .slide3 {
-  background-image: url("./images/section3.jpg");
+  background-image: url("./images/section1.jpg");
 }
 
 .slide-content {
