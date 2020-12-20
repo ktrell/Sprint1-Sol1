@@ -436,7 +436,7 @@ header.headerFlotante .navBar li a:hover {
 
 .footer {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row;
   background-color: white;
   flex-direction: row;
   justify-content: space-between;
