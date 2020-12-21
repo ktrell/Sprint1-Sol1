@@ -21,13 +21,41 @@
                 <li><a href="#servicios">Servicios</a></li>
                 <li><a href="#testimonios">Testimonios</a></li>
                 <li><a href="#equipo">Equipo</a></li>
-                <li><a href="#hogar"> <button>Login</button> </a></li>
+                <li><a href="#hogar"> <button onclick="document.getElementById('botonLogin').style.display='block'" style="width:auto;" class="button1">Login</button> </a></li>
             </ul>
 
         </nav>
 
     </header>
-    
+
+<!-- Boton Login Form -->
+	<div id="botonLogin" class="popLogin"> 
+
+		<form class="contenidoLogin" action="/action_page.php"> 
+
+            <div class="imgBox"> 
+				<span onclick="document.getElementById('botonLogin').style.display='none'" class="close">×</span> 
+			</div> 
+
+			<div class="container"> 
+				<label><b>Usuario o e-mail</b></label> 
+				<input type="text" placeholder="Escribe tu usuario o email" name="uname" required> 
+
+				<label><b>Contraseña</b></label> 
+				<input type="password" placeholder="Escribe tu contraseña" name="psw" required> 
+
+				<button type="submit">Login</button> 
+				<input type="checkbox" checked="checked"> Recuerdame 
+			</div> 
+
+			<div class="container" style="background-color:#f1f1f1"> 
+				<button type="button" onclick="document.getElementById('botonLogin').style.display='none'" class="cancelbtn">Registrate</button> 
+				<span class="psw"><a href="#">¿Olvidaste tu contraseña?</a></span> 
+            </div> 
+            
+		</form> 
+	</div> 
+
 <!-- Sección del slider -->
     <section class="banner" id="banner">
         
