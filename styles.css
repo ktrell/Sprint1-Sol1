@@ -33,7 +33,7 @@ header .navBar li a:hover {
   color: yellow;
 }
 
-/* Desde aqui los que tengan header.headerFlotante se refiere a los cambios del estilo cuando se aplique el JS en donde el header queda flotanto */
+/* ------------ CAMBIOS DE ESTILO PARA EL NAVBAR FLOTANTE ------------ */
 
 header.headerFlotante {
   background: white;
@@ -57,7 +57,7 @@ header.headerFlotante .navBar li a:hover {
   color: blue;
 }
 
-/* hasta aqui ------------------------------------------ */
+/* ------------ HASTA AQUI ------------ */
 
 .logo {
   color: white;
@@ -495,7 +495,7 @@ header.headerFlotante .navBar li a:hover {
   margin-bottom: 20px;
 }
 
-/* SECCION ESTILOS DEL SLIDER*/
+/* ------------ SECCION ESTILOS DEL SLIDER ------------ */
 
 body,
 #slider,
@@ -570,7 +570,7 @@ body,
   font-size: 2em;
 }
 
-/* ----------------------------------- Login Form Styles ------------------------------------- */
+/* ----------------------------------- ESTILOS FORM DEL LOGIN ------------------------------------- */
 
 input[type="text"],
 input[type="password"] {
